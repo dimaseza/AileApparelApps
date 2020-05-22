@@ -1,0 +1,2 @@
+rootProject.name='AILE Apparel'
+include ':app'

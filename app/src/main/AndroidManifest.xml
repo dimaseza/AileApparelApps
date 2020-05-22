@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.daivers.aileapparel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_launcer"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_launcer_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HowToOrderActivity"
+            android:theme="@style/AppTheme.NoActionBarNoFullScreen" />
+        <activity
+            android:name=".AllJerseyActivity"
+            android:label="All Jersey" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:theme="@style/AppTheme.NoActionBarNoFullScreen" />
+        <activity
+            android:name=".SizeAndFontActivity"
+            android:theme="@style/AppTheme.NoActionBarNoFullScreen" />
+        <activity
+            android:name=".PriceActivity"
+            android:theme="@style/AppTheme.NoActionBarNoFullScreen" />
+        <activity
+            android:name=".CheckActivity"
+            android:theme="@style/AppTheme.NoActionBarNoFullScreen" />
+        <activity
+            android:name=".SocialMediaActivity"
+            android:theme="@style/AppTheme.NoActionBarNoFullScreen" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBarNoFullScreen" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:theme="@style/AppTheme.NoActionBarNoFullScreen" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBarNoFullScreen" />
+        <activity
+            android:name=".SignInActivity"
+            android:theme="@style/AppTheme.NoActionBarNoFullScreen" />
+        <activity
+            android:name=".DetailActivity"
+            android:label="Detail Jersey" />
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBarNoFullScreen" />
+        <activity
+            android:name=".OnBoardingThreeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OnBoardingTwoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OnBoardingOneActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

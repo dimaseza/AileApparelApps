@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "564288975912",
+    "firebase_url": "https://aile-app.firebaseio.com",
+    "project_id": "aile-app",
+    "storage_bucket": "aile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564288975912:android:c81c321a8af438b85fb11d",
+        "android_client_info": {
+          "package_name": "com.daivers.aileapparel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564288975912-j3r0tjqtt84tkfehklojcj7b6vctntt6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.daivers.aileapparel",
+            "certificate_hash": "e4dfbc524d1646c4aa1f7129c7d04c9aaa68aba0"
+          }
+        },
+        {
+          "client_id": "564288975912-5vc8u14p8ee7622vtdmlh5ourregjmcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBok0wL-cTmCtDkNfo8ZEu0ZA8SMIcFoM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564288975912-5vc8u14p8ee7622vtdmlh5ourregjmcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
